@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to relative url templates</h1>
+    <a href="{% url 'basic_app:other' %}">The other app</a>  <!--there should not be any space between the ' ' in defining the templates-->
+    <a href="{% url 'admin:index' %}"> Admin page</a> <!-- admin is a app which is inbuilt in django from which index is being callled -->
+    <a href="{% url 'index' %}"> Index page</a>
+  </body>
+</html>
